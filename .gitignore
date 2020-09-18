@@ -1,0 +1,12 @@
+# User specific
+*.user
+
+# Visual Studio
+*.suo
+
+# Build artifacts
+**/bin
+**/obj
+
+# Resharper
+_ReSharper.Caches

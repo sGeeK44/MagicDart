@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicDart.Android", "MagicDart\MagicDart.Android\MagicDart.Android.csproj", "{41E7A51B-9DA2-4F2A-9920-8BC7D4469A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicDart", "MagicDart\MagicDart\MagicDart.csproj", "{C9F9AB8A-06B7-44B1-82BD-3B00B9E1C10B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicDart.Ioc", "MagicDart.Ioc\MagicDart.Ioc.csproj", "{55963485-6139-40F6-A40A-B0E8C98AA72B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicDart.Mvvm", "MagicDart.Mvvm\MagicDart.Mvvm.csproj", "{3F2451A2-1285-468D-815E-DF9AB98701FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicDart.Domain", "MagicDart.Domain\MagicDart.Domain.csproj", "{EC3E28D5-5503-4341-94D6-21AC98D86CB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41E7A51B-9DA2-4F2A-9920-8BC7D4469A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E7A51B-9DA2-4F2A-9920-8BC7D4469A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E7A51B-9DA2-4F2A-9920-8BC7D4469A01}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{41E7A51B-9DA2-4F2A-9920-8BC7D4469A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E7A51B-9DA2-4F2A-9920-8BC7D4469A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41E7A51B-9DA2-4F2A-9920-8BC7D4469A01}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C9F9AB8A-06B7-44B1-82BD-3B00B9E1C10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F9AB8A-06B7-44B1-82BD-3B00B9E1C10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F9AB8A-06B7-44B1-82BD-3B00B9E1C10B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C9F9AB8A-06B7-44B1-82BD-3B00B9E1C10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F9AB8A-06B7-44B1-82BD-3B00B9E1C10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F9AB8A-06B7-44B1-82BD-3B00B9E1C10B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{55963485-6139-40F6-A40A-B0E8C98AA72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55963485-6139-40F6-A40A-B0E8C98AA72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55963485-6139-40F6-A40A-B0E8C98AA72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55963485-6139-40F6-A40A-B0E8C98AA72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2451A2-1285-468D-815E-DF9AB98701FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2451A2-1285-468D-815E-DF9AB98701FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2451A2-1285-468D-815E-DF9AB98701FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2451A2-1285-468D-815E-DF9AB98701FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3E28D5-5503-4341-94D6-21AC98D86CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3E28D5-5503-4341-94D6-21AC98D86CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3E28D5-5503-4341-94D6-21AC98D86CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3E28D5-5503-4341-94D6-21AC98D86CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A35507E-D876-4670-977B-BF215386F9D5}
+	EndGlobalSection
+EndGlobal
