@@ -1,0 +1,42 @@
+name: MagicDart (Android)
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:    
+    - name: Checkout files
+      uses: actions/checkout@v2
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+        
+    - name: Install MAUI workload
+      run: dotnet workload install maui
+
+    - name: Print environment
+      run: |
+          nuget help | grep Version
+          dotnet --info
+          echo "GitHub ref: $GITHUB_REF"
+          echo "GitHub event: $GITHUB_EVENT"
+          
+    - name: Verify Format
+      run: |
+        dotnet tool install -g dotnet-format
+        dotnet-format --check
+      shell: pwsh
+      
+    - name: Build
+      run: dotnet build -c Release -f:net6.0-android
+      
+    - name: Execute unit tests
+      run: dotnet test $env:Tests_Project_Path
