@@ -1,0 +1,16 @@
+# User specific
+*.user
+
+# Visual Studio
+*.suo
+**/.vs
+
+# Build artifacts
+**/bin
+**/obj
+
+# Resharper
+_ReSharper.Caches
+
+# NCrunch
+_NCrunch_MagicDart
